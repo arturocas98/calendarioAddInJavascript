@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="output\auth.js" Url="output/auth.js" ReplaceContent="TRUE" />
+    <File Path="output\graph_sdk.js" Url="output/graph_sdk.js" ReplaceContent="TRUE" />
+    <File Path="output\msal.js" Url="output/msal.js" ReplaceContent="TRUE" />
+    <File Path="output\main.js" Url="output/main.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

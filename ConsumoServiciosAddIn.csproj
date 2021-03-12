@@ -1,0 +1,187 @@
+﻿<Project ToolsVersion="16.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB0CEEC1-CB2E-464F-BA65-F6A0784C046F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsumoServiciosAddIn</RootNamespace>
+    <AssemblyName>ConsumoServiciosAddIn</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{9fe78796-4dc5-4bf5-b7eb-d8d9bde518a7}</AppFeaturePartId>
+    <WspPartId>{70b93624-f3d1-4ec2-9678-385b44cc5cc9}</WspPartId>
+    <WorkflowPartId>{7b03a930-e4f3-4f93-9051-07b78cf282fb}</WorkflowPartId>
+    <CspkgPartId>{e3878693-ef91-4db1-9fa1-b57de549ee02}</CspkgPartId>
+    <SqlPackagePartId>{5828c3b7-928e-4079-9356-bad493098008}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ConsumodeServicios\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\fullcalendar.css" />
+    <Content Include="Content\css\mobiscroll.javascript.min.css" />
+    <Content Include="Content\css\monthly.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\img\close.png" />
+    <Content Include="Content\js\auth.js" />
+    <Content Include="Content\js\config.js" />
+    <Content Include="Content\js\fullcalendar3.10.2.js" />
+    <Content Include="Content\js\fullcalendar.js" />
+    <Content Include="Content\js\fullcalendar.min.css" />
+    <Content Include="Content\js\graph.js" />
+    <Content Include="Content\js\graph_sdk.js" />
+    <Content Include="Content\js\jquery.js" />
+    <Content Include="Content\js\locale-all.js" />
+    <Content Include="Content\js\main.js" />
+    <Content Include="Content\js\mobiscroll.javascript.min.js" />
+    <Content Include="Content\js\monthly.js" />
+    <Content Include="Content\js\msal.js" />
+    <Content Include="Content\js\timezones.js" />
+    <Content Include="Content\js\ui.js" />
+    <Content Include="Elements.xml" />
+    <Content Include="output\auth.js" />
+    <Content Include="output\config.js" />
+    <Content Include="output\fullcalendar.js" />
+    <Content Include="output\fullcalendar3.10.2.js" />
+    <Content Include="output\graph.js" />
+    <Content Include="output\graph_sdk.js" />
+    <Content Include="output\jquery.js" />
+    <Content Include="output\locale-all.js" />
+    <Content Include="output\main.js" />
+    <Content Include="output\mobiscroll.javascript.min.js" />
+    <Content Include="output\msal.js" />
+    <Content Include="output\timezones.js" />
+    <Content Include="output\ui.js" />
+    <Content Include="Pages\ConsumodeServicios.aspx" />
+    <Content Include="Scripts\jquery-3.5.0.js" />
+    <Content Include="Scripts\jquery-3.5.0.min.js" />
+    <Content Include="Scripts\jquery-3.5.0.slim.js" />
+    <Content Include="Scripts\jquery-3.5.0.slim.min.js" />
+    <None Include="app.config" />
+    <None Include="ConsumodeServicios\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f50ce901-5ca0-4bef-acab-44248740a1fd}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2677785a-bbdd-4820-8a74-a3e62fb685fd}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4cd519ef-fa78-4e29-adec-9da82e96e906}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-3.5.0.min.map" />
+    <None Include="Scripts\jquery-3.5.0.slim.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5828c3b7-928e-4079-9356-bad493098008}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{879fb6c4-4709-4ea4-9dbf-c5be2ac1718f}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d513b3a8-2080-481c-929d-4c8018ff44e2}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{3ac27cd5-e05d-416a-ba9a-8d7fbddc80a1}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{6d543c7b-01b0-4830-b20b-9ee0b8f3ac12}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Graph, Version=3.25.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Graph.3.25.0\lib\net461\Microsoft.Graph.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Graph.Core, Version=1.24.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Graph.Core.1.24.0\lib\net45\Microsoft.Graph.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.4.7.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

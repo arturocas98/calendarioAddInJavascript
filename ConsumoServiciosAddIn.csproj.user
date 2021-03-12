@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>https://pacificobp.sharepoint.com/sites/Css_Intranetbp/</SharePointSiteUrl>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <ProjectStore>
+          <AppInstancePackageModifiedTime>2021-03-12T01:45:03.9738208Z</AppInstancePackageModifiedTime>
+          <AppInstanceId>f1fafcb9-4ee8-4f2d-968d-c87bb3abee52</AppInstanceId>
+        </ProjectStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

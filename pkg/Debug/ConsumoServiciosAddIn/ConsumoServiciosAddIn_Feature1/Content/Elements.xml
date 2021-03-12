@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\monthly.css" Url="Content/css/monthly.css" ReplaceContent="TRUE" />
+    <File Path="Content\js\jquery.js" Url="Content/js/jquery.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\monthly.js" Url="Content/js/monthly.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\config.js" Url="Content/js/config.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\auth.js" Url="Content/js/auth.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\timezones.js" Url="Content/js/timezones.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\graph.js" Url="Content/js/graph.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\ui.js" Url="Content/js/ui.js" ReplaceContent="TRUE" />
+    <File Path="Content\css\style.css" Url="Content/css/style.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\mobiscroll.javascript.min.css" Url="Content/css/mobiscroll.javascript.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\js\mobiscroll.javascript.min.js" Url="Content/js/mobiscroll.javascript.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\fullcalendar.min.css" Url="Content/js/fullcalendar.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\js\fullcalendar.js" Url="Content/js/fullcalendar.js" ReplaceContent="TRUE" />
+    <File Path="Content\css\fullcalendar.css" Url="Content/css/fullcalendar.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\bootstrap.css" Url="Content/css/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\js\locale-all.js" Url="Content/js/locale-all.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\fullcalendar3.10.2.js" Url="Content/js/fullcalendar3.10.2.js" ReplaceContent="TRUE" />
+    <File Path="Content\img\close.png" Url="Content/img/close.png" ReplaceContent="TRUE" />
+    <File Path="Content\js\main.js" Url="Content/js/main.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\graph_sdk.js" Url="Content/js/graph_sdk.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\msal.js" Url="Content/js/msal.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

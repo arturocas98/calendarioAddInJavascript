@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="output\auth.js" Target="output\" Type="ElementFile" />
+    <ProjectItemFile Source="output\graph_sdk.js" Target="output\" Type="ElementFile" />
+    <ProjectItemFile Source="output\msal.js" Target="output\" Type="ElementFile" />
+    <ProjectItemFile Source="output\main.js" Target="output\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

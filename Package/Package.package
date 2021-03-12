@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="3ac27cd5-e05d-416a-ba9a-8d7fbddc80a1" 
+        solutionId="3ac27cd5-e05d-416a-ba9a-8d7fbddc80a1" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ConsumoServiciosAddIn"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="6d543c7b-01b0-4830-b20b-9ee0b8f3ac12" />
+  </features>
+</package>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Característica de complemento de SharePoint" Id="6d543c7b-01b0-4830-b20b-9ee0b8f3ac12" Scope="Web" Title="ConsumoServiciosAddIn Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\ConsumodeServicios.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-3.5.0.slim.min.map" />
+    <ElementFile Location="Scripts\jquery-3.5.0.slim.min.js" />
+    <ElementFile Location="Scripts\jquery-3.5.0.slim.js" />
+    <ElementFile Location="Scripts\jquery-3.5.0.min.map" />
+    <ElementFile Location="Scripts\jquery-3.5.0.min.js" />
+    <ElementFile Location="Scripts\jquery-3.5.0.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\css\monthly.css" />
+    <ElementFile Location="Content\js\jquery.js" />
+    <ElementFile Location="Content\js\monthly.js" />
+    <ElementFile Location="Content\js\config.js" />
+    <ElementFile Location="Content\js\auth.js" />
+    <ElementFile Location="Content\js\timezones.js" />
+    <ElementFile Location="Content\js\graph.js" />
+    <ElementFile Location="Content\js\ui.js" />
+    <ElementFile Location="Content\css\style.css" />
+    <ElementFile Location="Content\css\mobiscroll.javascript.min.css" />
+    <ElementFile Location="Content\js\mobiscroll.javascript.min.js" />
+    <ElementFile Location="Content\js\fullcalendar.min.css" />
+    <ElementFile Location="Content\js\fullcalendar.js" />
+    <ElementFile Location="Content\css\fullcalendar.css" />
+    <ElementFile Location="Content\css\bootstrap.css" />
+    <ElementFile Location="Content\js\locale-all.js" />
+    <ElementFile Location="Content\js\fullcalendar3.10.2.js" />
+    <ElementFile Location="Content\img\close.png" />
+    <ElementFile Location="Content\js\main.js" />
+    <ElementFile Location="Content\js\graph_sdk.js" />
+    <ElementFile Location="Content\js\msal.js" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="output\auth.js" />
+    <ElementFile Location="output\graph_sdk.js" />
+    <ElementFile Location="output\msal.js" />
+    <ElementFile Location="output\main.js" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>
